@@ -1,0 +1,221 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 5% 5%;
+  height: 100vh;
+}
+
+
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: black;
+}
+
+.big-heading{
+  font-family: Arial,sans-serif;
+  font-size: 3.5vw;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3vw;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 0 0 4.5em;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+  background-color: #eef6f6;
+  color: #000;
+  text-align: left;
+  /*height: 100vh;*/
+
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  padding-left: 10vw;
+  width: 40vw;
+  /*z-index: 0;*/
+  position: relative;
+}
+
+/* Features section */
+
+#features{
+
+  background-image: url(https://img.pngio.com/hd-network-image-png-transparent-png-image-download-trzcacak-network-png-1438_420.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  //opacity: 0.7;
+  //background-size: 100%;
+  background-attachment: fixed;
+  background-color: transparent 0.87;
+  //height: 100vh;
+  vertical-align: center;
+  position: relative;
+
+}
+
+.feature-box{
+
+  padding: 10% 5%;
+  height: 29vh;
+}
+
+.icon{
+  color: #9FBFFE;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #FE6D68;
+  margin-bottom: 1rem;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* testimonials */
+
+#testimonials {
+
+
+  background-color: #eef6f6;
+  color: #000;
+
+  height: 100vh;
+
+
+}
+
+.carousel-inner{
+  vertical-align: middle;
+}
+
+.testimonial-image{
+  width: 30%;
+  margin: 20px;
+  image-orientation: 25deg;
+}
+
+.testimonial-text{
+ font-size: 3vw;
+ line-height: 1.5;
+}
+
+.carousel-item{
+
+  height: 500px;
+}
+
+#press{
+  display: none;
+  background-color: #9FBFFE;
+
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+#games{
+  padding: 100px;
+  background-image: url(https://i.ytimg.com/vi/k6GABJ29SVc/maxresdefault.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  //background-size: 100%;
+  background-attachment: fixed;
+  background-color: white transparent 0.87;
+  //height: 100vh;
+}
+
+.game-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.gaming-column {
+  padding: 3% 2%;
+
+}
+
+#games{
+
+}
+
+#cta{
+
+  background: #fafafa;
+  height: 95vh;
+
+}
+
+#footer{
+
+  height: 5vh;
+
+}
+
+.foot-icon{
+  margin: 1rem 1rem;
+}
+
+p .footer{
+  padding: 5% 5%;
+}
+@media (max-width: 990px) {
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin: auto;
+  }
+
+}
